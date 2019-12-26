@@ -7,9 +7,6 @@
 
 This project shows how to build simple application
 with **WebSockets** in [Nuxt.js](https://nuxtjs.org).
-Unfortunately I couldn't find any way how to put
-server-side part in project as middleware,
-that's why it's in the *server/index.js*.
 
 ## Build Setup
 
@@ -44,7 +41,7 @@ app.ws('/chat', function(ws, req) {
 ```
 Rest is in the *pages/index.vue*.
 
-## Good way to try
+## Good way to check this solution
 
 1. Run application.
 ```bash
